@@ -1,0 +1,42 @@
+h1 {
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color:  #b30000;
+  text-align: center;
+}
+h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: #6D2616;
+}
+p {
+  font-family: Helvetica;
+  font-size: 18px;
+}
+img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.indented {
+  padding-left: 50pt;
+  padding-right: 50pt;
+}
+.stories {
+  background-image: url("sky.jpeg");
+  background-position: bottom;
+  background-blend-mode: luminosity;
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+.page {
+  text-align: center;
+}
+#grad1 {
+    height: 200px;
+    background-color: red;
+    background-image: linear-gradient(to right,  #fff7e6 , #ffd480); 
+}
